@@ -1,4 +1,4 @@
-mport warnings
+import warnings
 warnings.filterwarnings("ignore", category=UserWarning)
 
 from flask import Flask, request, render_template
